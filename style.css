@@ -1,0 +1,334 @@
+
+
+
+/************* UNIVERSAL STYLES **************/
+
+body {
+	margin:0;
+	font-family:"Avenir", "Helvetica Neue", Arial, Sans Serif;
+	color:#343e3b;
+}
+
+p {
+	font-size:14px !important;
+	line-height:21px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.ruleHorz {
+	height: 1px;
+	background-image:url('img/ruleHorz.png');
+	padding: 10px;
+	background-repeat-y: no-repeat;
+}
+
+.ruleVert {
+	width: 1px;
+	background-image:url('img/ruleVert.png');
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+.ruleHorzWhite {
+	height: 1px;
+	background-image:url('img/ruleHorzWhite.png');
+	padding: 10px;
+	background-repeat-y: no-repeat;
+}
+
+.ruleVertWhite {
+	width: 1px;
+	background-image:url('img/ruleVertWhite.png');
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+button, .button {
+	background-color: #24b7f9 !important;
+	border-bottom: 3px solid #1495d2 !important;
+	color: #fff !important;
+	min-width: 255px;
+}
+
+
+
+
+
+/************* SECTION 1 **************/
+
+
+#intro {
+	background-image:url('img/bg.jpg');
+	background-size: cover;
+	width: 100%;
+}
+
+#titleImg {
+	margin:300px 0 10px 0;
+	max-width:453px;
+	height:147px;
+	background-image:url('img/title.png');	
+}
+
+
+#titleInfo {
+	max-width:450px;
+}
+
+
+#sponsorImg {
+	background-image:url('img/sponsors.png');
+	width:267px;
+	height:38px;
+	margin-bottom:50px;
+}
+
+
+
+
+
+/************* SECTION 2 **************/
+
+
+#about {
+	margin: 25px 0;
+}
+
+
+#meetSimon {
+	text-align:center;
+}
+
+#simonAvatar {
+	background-image:url('img/simon.png');
+	width:335px;
+	height:247px;
+	display:inline-block;
+	margin-bottom: 15px;
+}
+
+#routes {
+	text-align:center;
+}
+
+#routeTanks {
+	background-image:url('img/racetanks.png');
+	width:335px;
+	height:247px;
+	display:inline-block;
+	margin-bottom: 15px;
+}
+
+#routes iframe {
+	margin:auto !important;
+}
+
+#routes p {
+	margin-top: 20px;
+}
+
+#about .ruleVert {
+	height: 120%;
+}
+
+
+
+
+
+/************* SECTION 3 **************/
+
+#map {
+	width:100%;
+	height:600px;
+	background-color:red;
+}
+
+
+
+
+
+/************* SECTION 4 **************/
+
+
+#social {
+	margin:50px 0;
+}
+
+#hosts,
+#twitter,
+#journey {
+	text-align:center;
+	margin-bottom: 10px;
+}
+
+#socialAirbnb,
+#socialTwitter,
+#socialJourney {
+	width:272px;
+	height:128px;
+	display:inline-block;
+	margin-bottom: 20px;
+}
+
+#socialAirbnb {
+	background-image:url('img/socialAirbnb.png');
+}
+
+#socialTwitter {
+	background-image:url('img/socialTwitter.png');
+}
+
+#socialJourney {
+	background-image:url('img/socialJourney.png');
+}
+
+
+#social .ruleVert {
+	height: 600px;
+}
+
+#social .ruleHorz {
+	margin-top: 20px;
+}
+
+
+#airbnbIllus {
+	display: block;
+	margin: auto;
+	width:250px;
+	height:150px;
+	background-color:#eee;
+	color:#bbb;
+	margin-bottom:15px;
+}
+
+
+#journey iframe {
+	display: block;
+	margin: auto;
+}
+
+
+
+
+
+/************* FOOTER **************/
+
+
+#footer {
+	background-color:#203b4f;
+	color:#698fa7;
+	width: 100%;
+	padding:35px 0;
+}
+
+h4 {
+	color:#698fa7!important;
+	text-transform: uppercase;
+	font-size: 18px!important;
+	font-weight: bold!important;
+}
+
+ul {
+	list-style-type: none;
+	margin:0 !important;
+}
+
+ul li a {
+	color:#698fa7;
+}
+
+ul li a:hover {
+	color:#fff;
+}
+
+
+#footer .ruleVertWhite {
+	height: 220px;
+}
+
+#footer .ruleHorzWhite {
+	margin-top: 20px;
+}
+
+#rkFooter,
+#airFooter {
+	width:176px;
+	height:53px;
+}
+
+#rkFooter {
+	background-image:url('img/footer-runkeeper.png');
+}
+
+#airFooter {
+	background-image:url('img/footer-airbnb.png');
+}
+
+.buttonFooter {
+	background-color: #698fa7 !important;
+	border-bottom: 3px solid #435d6d !important;
+	color: #203b4f !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/************* MEDIA QUERIES ****************/
+
+
+@media only screen and (min-width : 320px) and (max-width : 560px) {
+	#intro {
+		background-image:url('img/bg-mobile@2x.jpg');
+		background-size: cover;
+		width: 100%;
+	}
+
+	#titleImg {
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	button, .button {
+		width: 100%;
+	}
+}
+
+
+
+
+@media only screen and (min-width : 1025px) {
+	#about {
+		margin: 50px 0;
+	}
+	
+	#meetSimon {
+		padding-right:50px;
+	}
+
+	#routes {
+		padding-left:50px;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) { 
+    /* Retina-specific stuff here */
+    #myImg {
+    	ackground-i
+    }
+}
